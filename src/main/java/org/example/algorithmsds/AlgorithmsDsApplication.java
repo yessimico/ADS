@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class AlgorithmsDsApplication {
 
     // 1
-    public static int sumSquares(int n) {
+    public static int sumFactorial(int n) {
         if (n == 1) return 1;
-        return n * n + sumSquares(n - 1);
+        return n * sumFactorial(n - 1);
     }
 
     // 2

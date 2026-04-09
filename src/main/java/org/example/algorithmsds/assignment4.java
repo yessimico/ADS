@@ -1,5 +1,4 @@
 package org.example.algorithmsds;
 
-public class task1 {
-
+public class assignment4{
 }
